@@ -1,0 +1,68 @@
+/* Write your CSS here */
+
+.popular_repo_page_bg {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 40px;
+}
+
+.popular_title {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+.languages_container {
+  margin-top: 30px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .languages_container {
+    width: 60%;
+  }
+}
+
+.repository_list_container {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.failure_container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure_image {
+  width: 320px;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .failure_image {
+    width: 60%;
+  }
+}
+
+.failure_msg {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 900;
+}
